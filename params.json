@@ -1,6 +1,6 @@
 {
   "name": "Page",
   "tagline": "随便写写",
-  "body": "## [如何在Spring Data Jpa下快速实现读写分离](https://www.zedcn.com/spring_data_jpa_database_multi_datasource.html)\r\n2016/11/8 by Zed\r\n\r\n本文通过实现Spring JDBC下AbstractRoutingDataSource，通过AOP切入Repository的各个继承接口的方法调用，根据JPA方法命名规范定义执行类型（查询/非查询），动态切换数据源。",
+  "body": "## [如何在Spring Data Jpa下快速实现读写分离](http://www.zedcn.com/spring_data_jpa_database_multi_datasource.html)\r\n2016/11/8 by Zed\r\n\r\n本文通过实现Spring JDBC下AbstractRoutingDataSource，通过AOP切入Repository的各个继承接口的方法调用，根据JPA方法命名规范定义执行类型（查询/非查询），动态切换数据源。",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
